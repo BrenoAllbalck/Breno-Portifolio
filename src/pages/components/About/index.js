@@ -39,7 +39,7 @@ export default function About(){
 
 			<span>
 				-Faço desenhos realistas nas horas vagas,e uma coisa que pude abstrair desse meu hob é acreditar no trabalho de 
-				formiguinha, conistencia e diciplina nas tarefas, acredito que esse seja o caminho do sucesso!
+				formiguinha, consistência e diciplina nas tarefas, acredito que esse seja o caminho do sucesso!
 			</span>
 
 			<br/>
