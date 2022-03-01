@@ -9,10 +9,11 @@ export default class MyDocument extends Document{
              </Head>
              <body>
               <Main/>
-              <NextScript>
-                  
-              </NextScript>
-
+              <NextScript/>             
+              <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                    AOS.init();
+                </script> 
 
 
              </body>            

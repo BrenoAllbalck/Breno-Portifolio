@@ -13,16 +13,14 @@ export default function App(){
 
   return(
     <>
+    <div className={styles.correBug}>
+
       
       <Head>
         <title>Breno Nascimento - portifolio </title>
       </Head>
       <div style={{backgroundColor:"#000"}}>
       <Header/>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-                <script>
-                    AOS.init();
-                </script> 
 
       <main className={styles.container}>
         <div id='home' className={styles.topContent}>
@@ -38,14 +36,16 @@ export default function App(){
 
       </main>
 
-      <Divisoria/>
+        <Divisoria/>
 
       <About/>
 
-      <DivisoriaRock/>
+        <DivisoriaRock/>
       
       <Projetos/>
       </div>
+    </div>
+
     </>
   );
 }

@@ -1,5 +1,4 @@
 .container{
-    max-width: 100%;
     display: block;
     background-image: url('../../../public/images/wallpaperflare.com_wallpaper\ \(1\).jpg');
     background-repeat: no-repeat;
@@ -22,21 +21,38 @@
     }
 
     h2{
-        font-size: 40px;
+        font-size: 2.4rem;
         color: #F9004D;
         font-weight: bold;
     } 
     h1{
-        font-size:60px;
+        font-size:3.8rem;
         font-weight: bold;
     }
 
 }
 
-.borda{
-    width: 100%;
-    background-color: rgb(36, 35, 35);
-    border-width: 0px;
-    height: auto;
-    padding: 2rem;
+
+
+@media(max-width:500px){
+    .topContent{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: -4rem;
+        h2{
+            font-size: 2.4rem;
+        }
+        h1{
+            font-size:3.4rem ;
+        }
+    }
+}
+
+
+@media(max-width:665px){
+    .correBug{
+        background-color: #000;
+        display: flex;
+    }
 }

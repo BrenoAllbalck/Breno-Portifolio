@@ -6,7 +6,7 @@ export default function Header(){
     return(
 			<main className={styles.container}>
 
-				<div className={styles.media}>
+				<div className={styles.midias}>
 					<a href='https://www.linkedin.com/in/breno-nascimento-0b3331229/'>
 					<FaLinkedin size={25} color='#fff'/>
 					</a>

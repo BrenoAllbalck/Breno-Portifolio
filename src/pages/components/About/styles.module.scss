@@ -1,5 +1,6 @@
 .back{
     background-color: #000;
+    display: flex;
 }
 
 .about{
@@ -31,11 +32,11 @@
 
     .abouText{
         width: 400px;
-        margin-left:1rem;
         height: auto;
         flex-direction: column;
         display: flex;
         padding: 1rem;
+        margin-left: 5rem;
 
 
         span{
@@ -60,6 +61,29 @@
         .respan{
             font-size:2rem;
             margin-bottom:1rem
+        }
+    }
+}
+
+
+@media ( max-width:410px ){
+    .about{
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem;
+
+        span{
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+        
+        h1{
+            font-size: 0px;
+        }
+
+        .respan{
+            font-size:2rem;
+            margin-bottom:1rem;
         }
     }
 }

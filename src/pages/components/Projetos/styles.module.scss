@@ -68,3 +68,22 @@
         }
     }
 }
+
+@media(max-width:460px){
+    .container{
+        img{
+            width: 350px;
+        }
+        .webImages{
+            width: 350px;
+        }
+
+        p{
+            h4{
+                font-size: 1.3rem;
+            }
+            font-size: 0.8rem;
+            line-height: 1rem;
+        }
+    }
+}

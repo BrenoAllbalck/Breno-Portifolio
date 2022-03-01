@@ -8,7 +8,7 @@
     flex-direction:row ;
     display: flex;
 
-    .media{
+    .midias{
         padding: 0rem 2rem;
         display:flex;
         justify-content: center;
@@ -65,11 +65,20 @@
 
 }
 
-@media( max-width: 150px ){
+@media( max-width: 500px ){
     .container{
         height: 9rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        .midias{
+            margin-top: 2rem;
+        }
     }
     .content{
+        align-items: center;
         height: 9rem;
+        margin-top: -2rem;
     }
 }

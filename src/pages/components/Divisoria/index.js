@@ -14,6 +14,8 @@ export default function Divisoria(){
 	]
 
 	return(
+		<div style={{display:'flex', backgroundColor:"#fff"}}>
+
 		<main className={styles.container}>
 			
 			<div className={styles.infArea}>
@@ -35,5 +37,6 @@ export default function Divisoria(){
 				</div>
 
 		</main>
+		</div>
 	);
 }
