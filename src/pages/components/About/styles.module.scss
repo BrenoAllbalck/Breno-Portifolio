@@ -26,21 +26,23 @@
 
 
     h1{
-        font-size:2rem;
-        color:#F9004D
+        font-size:3rem;
+        color:#F9004D;
+        font-weight: bold;
     }
 
     .abouText{
-        width: 400px;
+        width: 450px;
         height: auto;
         flex-direction: column;
         display: flex;
         padding: 1rem;
-        margin-left: 5rem;
+        margin-left: 7rem;
 
 
         span{
-            color:#aaa
+            color:#aaa;
+            line-height: 2.3rem;
         }
     }
 }
@@ -52,21 +54,31 @@
 
         span{
             margin-top: 1rem;
+            font-size: 1.8rem;
+            line-height: 3rem;
         }
         
         h1{
             font-size: 0px;
         }
+        p{
+            font-size: 1.4rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+
+
 
         .respan{
-            font-size:2rem;
-            margin-bottom:1rem
+            font-size:3rem;
+            margin-bottom:1rem;
         }
     }
 }
 
 
-@media ( max-width:410px ){
+@media ( max-width:600px ){
     .about{
         justify-content: center;
         flex-direction: column;
@@ -74,16 +86,25 @@
 
         span{
             margin-top: 1rem;
-            font-size: 1rem;
+            font-size: 2rem;
+            line-height: 3.5rem;
         }
         
         h1{
             font-size: 0px;
         }
+        p{
+            font-size: 1.4rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+
 
         .respan{
-            font-size:2rem;
+            font-size:3rem;
             margin-bottom:1rem;
+            font-weight: bold;
         }
     }
 }

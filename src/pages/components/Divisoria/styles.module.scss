@@ -49,3 +49,19 @@
     margin-top: 1rem;
     flex-direction: row;
 }
+.imgRes{
+    width: 80px;
+    height: 50px;
+}
+
+@media(max-width:600px){
+    .container{
+        h1{
+            font-size: 2.3rem;
+        }
+    }
+    .imgRes{
+        width: 120px;
+        height: 80px;
+    }
+}

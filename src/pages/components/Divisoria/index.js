@@ -27,7 +27,7 @@ export default function Divisoria(){
 					{
 						arrayImagens.map( i =>(
 						<div key={i.id}>
-							<Image data-aos={i.fade} width={80} height={50} src={i.url} alt="techs"/>
+							<img className={styles.imgRes} data-aos={i.fade}  src={i.url} alt="techs"/>
 						</div>
 						) )
 					}
