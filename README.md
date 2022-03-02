@@ -9,8 +9,6 @@ Link para acessar: https://breno-portifolio.vercel.app/
   
 <img src="https://user-images.githubusercontent.com/94801880/156467019-491f499f-d487-4666-83f7-692d64f8c859.png" width=800>
 <img src="https://user-images.githubusercontent.com/94801880/156467814-a203a10b-da7c-4502-92ef-18d7699f9070.png" width=800>
-  
-  
 
 ## Tecnologias utilizadas:
 <div style="display: inline_block" ><br>
@@ -21,6 +19,8 @@ Link para acessar: https://breno-portifolio.vercel.app/
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://user-images.githubusercontent.com/94801880/155901199-87253c57-c690-4bf2-b419-1eb0d52718f9.png">
 </div>
+  
+  ## Portifolio desenvolvido com nextJs e reactJs.
   
   ### - PROJETO EM DESENVOLVIMENTO!
   
