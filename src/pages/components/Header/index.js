@@ -7,13 +7,13 @@ export default function Header(){
 			<main className={styles.container}>
 
 				<div className={styles.midias}>
-					<a href='https://www.linkedin.com/in/breno-nascimento-0b3331229/'>
+					<a target="_blank" href='https://www.linkedin.com/in/breno-nascimento-0b3331229/'>
 					<FaLinkedin size={25} color='#fff'/>
 					</a>
-					<a href='https://github.com/BrenoAllbalck'>
+					<a target="_blank" href='https://github.com/brenooliveiranascimento'>
 					<FaGithub size={25} color='#fff'/>
 					</a>
-					<a href='https://instagram.com/allblack_arts/'>
+					<a target="_blank" href='https://instagram.com/allblack_arts/'>
 					<FaInstagram size={25} color='#fff'/>
 					</a>
 				</div>
