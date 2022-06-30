@@ -51,7 +51,7 @@ export default function Projetos(){
 			</main>
 
 			<main className={styles.container}>
-			<h1 >projetos Web</h1>
+			<h1 className={styles.projectName}>Board - Lista de tarefa online</h1>
 
 			<Carousel>
 			<Carousel.Item>
