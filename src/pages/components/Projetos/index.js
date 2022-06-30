@@ -7,55 +7,80 @@ export default function Projetos(){
 			<main className={styles.container}>
 			<h1>projetos mobile</h1>
 
-			<Carousel fade>
-			<Carousel.Item>
+		<h1 className={styles.projectName}>DrawingStation</h1>
+			<Carousel>
+  <Carousel.Item>
 				<img
 				id="portifolio"
-					src="https://user-images.githubusercontent.com/94801880/155900387-f122e2e4-d18d-45fe-a6e8-c2a19d53db6a.gif"
+					src="https://user-images.githubusercontent.com/94801880/176781072-f9e9ac86-1c56-40a8-b1c2-6e68f7e919fa.png"
 					alt="primeiro slide"
 				/>
-				<Carousel.Caption>
-				<p><h4>Drawing station</h4>App com varais aulas de desenho realista. <a href='https://github.com/BrenoAllbalck/Drawing-Station'><span>ir ao projeto</span></a> </p>
-				</Carousel.Caption>
-			</Carousel.Item>
-			<Carousel.Item>
+			<Carousel.Caption>
+				<p><h4>DrawingStation</h4>Minha plataforma de ensino <a href='https://play.google.com/store/apps/details?id=com.drawingstation'><span>Baixar Projeto</span></a> </p>
+			</Carousel.Caption>
+  </Carousel.Item>
+
+  <Carousel.Item>
 				<img
-					src="https://user-images.githubusercontent.com/94801880/152468557-aa84da97-5444-494e-827d-f3416d35c726.gif"
+					src="https://user-images.githubusercontent.com/94801880/176781449-fbafd577-6cc7-4c34-a952-7710a96ebb63.png"
 					alt="segundo slide"
 				/>
+							<Carousel.Caption>
+				<p><h4>DrawingStation</h4>Minha plataforma de ensino <a href='https://play.google.com/store/apps/details?id=com.drawingstation'><span>Baixar Projeto</span></a> </p>
+			</Carousel.Caption>
+  </Carousel.Item>
 
-				<Carousel.Caption>
-					<p><h4>Talk Dream</h4>rede scial onde os usuarios pstam seus sonhos e pesadelos <a href='https://github.com/BrenoAllbalck/TalkDream'><span>ir ao projeto</span></a> </p>
-				</Carousel.Caption>
-			</Carousel.Item>
-			</Carousel>
+	<Carousel.Item>
+				<img
+					src="https://user-images.githubusercontent.com/94801880/176781656-650f2c4b-ed2b-408c-90fe-6ce4594894b5.png"
+					alt="segundo slide"
+				/>
+			<Carousel.Caption>
+				<p><h4>DrawingStation</h4>Minha plataforma de ensino <a href='https://play.google.com/store/apps/details?id=com.drawingstation'><span>Baixar Projeto</span></a> </p>
+			</Carousel.Caption>
+  </Carousel.Item> 
+</Carousel>
 
-					
+		<span>neste projeto utilizei React native com firebase de backEnd</span>
+		<span>E context api para gerenciar o estado global</span>
+		<span>Atualmente sendo refatorado utilizando redux</span>
+
+
+			
+
 			</main>
 
 			<main className={styles.container}>
 			<h1 >projetos Web</h1>
 
-			<Carousel fade>
+			<Carousel>
 			<Carousel.Item>
 				<img
-					className={styles.webImages}
-					src="https://user-images.githubusercontent.com/94801880/156219595-0fa39391-7a1c-4f33-95e7-82794a8387bf.png"
+					src="https://user-images.githubusercontent.com/94801880/176783634-4326fa08-0451-44f1-a1fc-a41d3a5db2c5.png"
 					alt="primeiro slide"
 				/>
 				<Carousel.Caption>
-				<p><h4>Lista de Tarefas</h4>Listad de tarefas online com premium e integração paypal <a href='https://board-anotacoes.herokuapp.com'><span>ir ao projeto</span></a> </p>
+				<p><h4>Lista de Tarefas</h4>Listad de tarefas online com premium e integração paypal <a href='https://board-anotacoes.herokuapp.com'><span>acessar projeto</span></a> </p>
 				</Carousel.Caption>
 			</Carousel.Item>
 
 			<Carousel.Item>
 				<img
-					className={styles.webImages}
-					src="https://user-images.githubusercontent.com/94801880/156220183-b63061fd-833f-48fb-8c2b-a0c715678731.png"
+					src="https://user-images.githubusercontent.com/94801880/176783807-7387ce2a-4647-45ba-8771-c355937ff375.png"
 					alt="segundo slide"
 				/>
 				<Carousel.Caption>
-				<p><h4>Repositrios favoritos</h4>Favoritar os repositorios do github consumindo a api diretamente deles<a href='https://github.com/BrenoAllbalck/Repo-favoritos'><span>ir ao projeto</span></a> </p>
+					<p><h4>Lista de Tarefas</h4>Listad de tarefas online com premium e integração paypal <a href='https://board-anotacoes.herokuapp.com'><span>acessar projeto</span></a> </p>
+				</Carousel.Caption>
+			</Carousel.Item>
+
+			<Carousel.Item>
+				<img
+					src="https://user-images.githubusercontent.com/94801880/176783811-c72eb1bd-ba90-4aef-9ee4-d9848fd53385.png"
+					alt="segundo slide"
+				/>
+				<Carousel.Caption>
+					<p><h4>Lista de Tarefas</h4>Listad de tarefas online com premium e integração paypal <a href='https://board-anotacoes.herokuapp.com'><span>acessar projeto</span></a> </p>
 				</Carousel.Caption>
 			</Carousel.Item>
 

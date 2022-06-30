@@ -29,6 +29,10 @@ export default function About(){
 			</span>
 
 			<br/>
+				<span>
+					atualmente estudando desenvolvimento web na trybe
+				</span>
+			<br/>
 
 			<span>
 			- Sou completamente apaixonado por astronomia e tudo que envolve o cosmo no geral.
