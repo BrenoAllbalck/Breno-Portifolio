@@ -82,11 +82,12 @@ export default function Projetos(){
 				<Carousel.Caption>
 					<p><h4>Lista de Tarefas</h4>Listad de tarefas online com premium e integração paypal <a href='https://board-anotacoes.herokuapp.com'><span>acessar projeto</span></a> </p>
 				</Carousel.Caption>
-			</Carousel.Item>
-
-			
-			
+			</Carousel.Item>			
 			</Carousel>
+
+			<span>Projeto feito usando React, NextJs, firebase com integração a api de pagamentos da paypall</span>
+			<span>Sistema de LogIn feito com NextAuth com integração do github</span>
+			<span>E de backEnd firebase para armazenar os dados do usuário</span>
 
 					
 			</main>

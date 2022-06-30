@@ -30,7 +30,7 @@ export default function About(){
 
 			<br/>
 				<span>
-					atualmente estudando desenvolvimento web na trybe
+				- Atualmente estudando desenvolvimento web na trybe
 				</span>
 			<br/>
 
