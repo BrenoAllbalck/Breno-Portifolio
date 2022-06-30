@@ -23,7 +23,7 @@ export default function About(){
 			<span>
 			- Desde pequeno apaixonado por tecnologia, tive meu primeiro contato com programação
 			desenvolvendo mods para o game minecraft usando Java.
-			ao terminar o ensino medio comecei estudar programação com o intuito de empreender e desenvovi minha primeira aplicação
+			Ao terminar o ensino medio comecei estudar programação com o intuito de empreender e desenvovi minha primeira aplicação
 			para auxiliar meus alunos nas aulas de desenho
 
 			</span>
